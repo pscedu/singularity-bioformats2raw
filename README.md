@@ -6,6 +6,8 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-bioformats2raw)
 
 # singularity-bioformats2raw
+<img src="https://www.glencoesoftware.com/img/logo.svg" width="25%" />
+
 Singularity recipe for [bioformats2raw](https://github.com/glencoesoftware/bioformats2raw).
 
 ## Installing the container on Bridges 2
