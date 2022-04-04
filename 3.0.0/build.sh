@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Copyright © 2021 Pittsburgh Supercomputing Center.
+# Copyright © 2022 Pittsburgh Supercomputing Center.
 # All Rights Reserved.
 
 IMAGE=singularity-bioformats2raw-3.0.0.sif
