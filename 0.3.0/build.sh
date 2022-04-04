@@ -3,7 +3,7 @@
 # Copyright © 2022 Pittsburgh Supercomputing Center.
 # All Rights Reserved.
 
-IMAGE=singularity-bioformats2raw-3.0.0.sif
+IMAGE=singularity-bioformats2raw-0.3.0.sif
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then

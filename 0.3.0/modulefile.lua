@@ -1,5 +1,5 @@
 --
--- bioformats2raw 3.0.0 modulefile
+-- bioformats2raw 0.3.0 modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Other"
@@ -7,7 +7,7 @@
 -- "Keywords: singularity utilities"
 
 whatis("Name: bioformats2raw")
-whatis("Version: 3.0.0")
+whatis("Version: 0.3.0")
 whatis("Category: Other")
 whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: Java application to convert image file formats, including .mrxs, to an intermediate Zarr structure.")
@@ -17,11 +17,11 @@ Java application to convert image file formats, including .mrxs, to an intermedi
 
 To load the module type
 
-> module load bioformats2raw/3.0.0
+> module load bioformats2raw/0.3.0
 
 To unload the module type
 
-> module unload bioformats2raw/3.0.0
+> module unload bioformats2raw/0.3.0
 
 Tools included in this module are
 
@@ -29,6 +29,6 @@ Tools included in this module are
 ]])
 
 local package = "bioformats2raw"
-local version = "3.0.0"
+local version = "0.3.0"
 local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)

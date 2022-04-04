@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=3.0.0
+VERSION=0.3.0
 PACKAGE=bioformats2raw
 TOOL=bioformats2raw
 DIRECTORY=$(dirname $0)
