@@ -14,7 +14,7 @@ inputs:
       position: 1
 
   outputDirectory:
-    type: Directory
+    type: string
     inputBinding:
       position: 2
     default: zarr
