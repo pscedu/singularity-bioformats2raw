@@ -1,0 +1,7 @@
+inputImage: 
+  class: File
+  path: /bil/data/84/c1/84c11fe5e4550ca0/SW170711-02A/SW170711-02A_4_06.tif
+
+outputDirectory:
+  class: Directory
+  path: SW170711-02A_4_06.zarr
