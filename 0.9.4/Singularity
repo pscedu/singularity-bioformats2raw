@@ -1,0 +1,22 @@
+Bootstrap: docker
+From: gradle:8.10.0-jdk17
+
+%labels
+    AUTHOR icaoberg
+    EMAIL icaoberg@psc.edu
+    SUPPORT help@psc.edu
+    WEBSITE http://github.com/icaoberg/singularity-bioformats2raw
+    COPYRIGHT Copyright © 2021-2024 Pittsburgh Supercomputing Center. All Rights Reserved. 
+    VERSION 0.9.4
+
+%post
+    export DEBIAN_FRONTEND=noninteractive
+    apt-get update -qq
+    apt-get -y install libblosc1 tzdata zeroc-ice-all-runtime zip wget unzip
+    rm -rf /var/cache/apt/*
+    cd /opt
+    wget https://github.com/glencoesoftware/bioformats2raw/releases/download/v0.9.4/bioformats2raw-0.9.4.zip -O bioformats2raw.zip
+    unzip bioformats2raw.zip
+    mv bioformats2raw-0.9.4 bioformats2raw
+    rm bioformats2raw.zip
+    apt clean
