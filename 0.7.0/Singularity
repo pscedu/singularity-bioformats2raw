@@ -15,8 +15,8 @@ From: gradle:6.2.1-jdk8
     apt-get -y install libblosc1 tzdata zeroc-ice-all-runtime zip wget unzip
     rm -rf /var/cache/apt/*
     cd /opt
-    wget https://github.com/glencoesoftware/bioformats2raw/releases/download/v0.2.6/bioformats2raw-0.2.6.zip -O bioformats2raw.zip
+    wget https://github.com/glencoesoftware/bioformats2raw/releases/download/v0.7.0/bioformats2raw-0.7.0.zip -O bioformats2raw.zip
     unzip bioformats2raw.zip
-    mv bioformats2raw-0.2.6 bioformats2raw
+    mv bioformats2raw-0.7.0 bioformats2raw
     rm bioformats2raw.zip
     apt clean
